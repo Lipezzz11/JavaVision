@@ -1,2 +1,0 @@
-# JavaVision
-Vamos estudar Java?
