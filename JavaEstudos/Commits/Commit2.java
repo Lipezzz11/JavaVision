@@ -1,13 +1,13 @@
 public class Commit2 {
     public static void main(String[] args) {
         // obj User
-        Info user = new Info();
+        Info1 user = new Info1();
         user.nome = "Ze Zinho";
         user.idade = 18;
         user.infor(); // chama o metodo
 
         // obj Wallet for user
-        Wallet walletUser = new Wallet();
+        Wallet1 walletUser = new Wallet1();
         System.out.println("Wallet info:");
         
         walletUser.setSaldo(1000.00); // definindo o saldo
@@ -21,7 +21,7 @@ public class Commit2 {
     }
 }
 
-class Info {
+class Info1 {
     String nome;
     int idade;
 
@@ -30,7 +30,7 @@ class Info {
     }
 }
 
-class Wallet {
+class Wallet1 {
     private double saldo;
     private double credits;
     private int coins;
